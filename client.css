@@ -1,0 +1,297 @@
+body {
+    background-image: url("beach.jpg");
+    background-color: #f1f1f1;
+}
+
+h4 {
+    text-align: center;
+}
+html{
+    font-size: 12px;
+    color: #222222;
+    font-family: monospace;
+
+}
+@keyframes fadeEffect {
+    from {opacity: 0.6;}
+    to {opacity: 0.9;}
+}
+/* Style the tab */
+.tab {
+     overflow: hidden;
+    width: 600px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 2px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 2px 2px 2px #000000;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: row;
+}
+.tabcontentcontainer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: #f1f1f1;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    flex-grow: 1;
+       font-family: monospace;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+.tab button.inactive {
+    background-color: #f1f1f1;
+}
+
+
+/* Style the tab content */
+.tabContainer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 400px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #000000;
+    opacity: 0.9;
+    background: #ccc;
+    justify-content: center;
+    padding-bottom: 20px;
+    min-height: 300px;
+
+}
+
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.information_box{
+    width: fit-content;
+    font-size: 15px;
+    clear: right;
+    background: #f1f1f1;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 10 0 0 0;
+}
+
+ .messages {
+     flex-direction: row;
+     width: 250px;
+     margin: 10 10 0 0;
+ }
+ .boxrow {
+    text-align: center;
+}
+
+.box {
+    border-bottom: 1px solid black;
+    padding: 5px;
+    flex-grow: 1;
+
+
+}
+
+.container
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 600px;
+    height: 400px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.imgContainer
+{
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    width: 340px;
+    height: 400px;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 2px 2px 2px #000000;
+}
+.img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.formContainer {
+    float: left;
+    height:  400px;
+    align-content: normal;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.loginBox
+{
+    width: 100%;
+    float:left;
+    margin-bottom: 5px;
+    margin-top: auto;
+    box-shadow: 2px 2px 2px #000000;
+    opacity: 0.9;
+    background: lightsteelblue;
+    flex-grow: 1;
+    border-top-right-radius: 10px;
+}
+
+.signupBox{
+    width: 100%;
+    float: left;
+    box-shadow: 2px 2px 2px #000000;
+    opacity: 0.9;
+    background: lightsteelblue;
+    flex-grow: 1;
+    border-bottom-right-radius: 10px;
+
+}
+
+.ChangePwBox{
+    padding: 3px;
+    border-radius: 5px;
+    background: #f1f1f1;
+    width: fit-content;
+    border:  1px solid black;
+    float: left;
+    margin: 10 0 0 0;
+    height: fit-content;
+}
+
+.right{
+    float: right;
+    margin-right: 2px;
+}
+.row{
+    clear:right;
+    margin-bottom: auto;
+}
+
+.firstpagebutton {
+    background: white;
+    border-radius: 2px;
+    float:right;
+    padding: 4px;
+    margin-right: 2px;
+    font-family: monospace;
+
+}
+
+.signout{
+    height:20px;
+    width:100px;
+    margin: -20px -50px;
+    position:relative;
+    top:50%;
+    left:50%;
+    margin-top: 50px;
+}
+
+.messagebox {
+float: left;
+    width: inherit;
+    height: 30px;
+    background: #f1f1f1;
+    border: 1px solid black;
+    height: fit-content;
+
+
+}
+.firstpagebutton {
+    background: white;
+    border-radius: 2px;
+    float: right;
+    padding: 4px;
+    margin-right: 2px;
+    font-family: monospace;
+
+
+}
+
+.tabcontent {
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: auto;
+    display: none;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #000000;
+    opacity: 0.9;
+    background: #ccc;
+    justify-content: center;
+    padding-bottom: 20px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.browsecontent{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.wall{
+
+    background: #f1f1f1;
+    width: inherit;
+    float: left;
+    overflow: scroll;
+    height: 280px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+tabcontainer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.tabcontentBrowse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: auto;
+    height: auto;
+    background-color:royalblue;
+    border: 5px solid deeppink;
+}
+.tabcontentBrowse {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
